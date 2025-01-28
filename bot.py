@@ -10,7 +10,9 @@ from typing import Dict, Optional, List
 import threading
 
 # Import configuration
-from config import DB_CONFIG, FILTERS, BLACKLISTS, RUGCHECK_API, BUNDLED_SUPPLY_SETTINGS, TELEGRAM_CONFIG
+from config import DB_CONFIG, FILTERS, BLACKLISTS, RUGCHECK_API, TELEGRAM_CONFIG
+
+# Add this to the above at some point BUNDLED_SUPPLY_SETTINGS,
 
 # DexScreener API endpoint
 DEXSCREENER_API = "https://api.dexscreener.com/latest/dex/tokens/"
